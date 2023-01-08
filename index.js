@@ -143,19 +143,6 @@ const sortAPI = {
       }
     }   
   },
-
-  //сортировка быстрая
-  /* const quickSort = (arr, comparation) {
-    if (arr.length <2) {
-      return arr;
-    } else {
-      const pivot = arr[Math.floor(Math.random() * arr.length)];
-      const less = arr.filter(value => value < pivot);
-      const greater = arr.filter(value => value > pivot);
-      return [...quickSort(less), pivot, ...quickSort(greater)];
-    }
-  
-  }, */
  
   // выполняет сортировку и производит замер времени
   startSort(sort, arr, comparation) {
